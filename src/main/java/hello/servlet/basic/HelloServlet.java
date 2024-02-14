@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "helloServlet", urlPatterns = "/hello")
+@WebServlet(name = "helloServlet", urlPatterns = "/hello") //name이랑 urlPatterns은 중복 안됌.
 public class HelloServlet extends HttpServlet {
 
 
